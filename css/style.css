@@ -208,3 +208,62 @@ a {
     padding: .3rem .8rem;
     border-radius: 10px;
 }
+
+/* web_redesign---------------------------------- */
+.web_redesign {
+    background: rgb(255, 216, 143);
+    width: 1920px;
+    height: 920px;
+    position: relative;
+}
+
+.web_redesign .mac {
+    margin-top: 220px;
+    width: 600px;
+    text-align: center;
+}
+
+.web_redesign .mac img {
+    width: 100%;
+}
+
+.web_redesign .ex {
+    margin-top: 300px;
+    width: 600px;
+    line-height: 35px;
+}
+.web_redesign .ex h3 {
+    font-size: 35px;
+}
+.web_redesign .ex p {
+    font-weight: 800;
+    font-size: 25px;
+}
+.web_redesign .ex hr {
+    width: 400px;
+    border: 1px solid black;
+    margin: 1rem 0;
+}
+.web_redesign .ex ul {
+    margin-top: 1rem;
+}
+.web_redesign .ex li p {
+    font-size: 18px;
+    font-weight: 500;
+    border: 0;
+}
+.web_redesign .ex li span {
+    font-weight: 700;
+    margin-right: 2rem;
+}
+
+.web_redesign .links {
+    position: absolute;
+    bottom: 33%;
+}
+.web_redesign .links li {
+    background: black;
+    color: white;
+    padding: .3rem .8rem;
+    border-radius: 10px;
+}
