@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* style class */
+
+/* header---------------------------------- */
+.intro {
+    background: url("../images/intro.png") no-repeat center / cover;
+}
+
