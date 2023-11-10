@@ -46,13 +46,16 @@ a {
 .intro {
     background: url("../images/intro.png") no-repeat center / cover;
     width: 1920px;
-    height: 930px;
+    height: 920px;
 }
 
 .header_top {
     height: 100px;
     line-height: 100px;
     border-bottom: 1px solid black;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
 }
 
 .nav #lnb {
@@ -72,3 +75,75 @@ a {
     color: black;
 }
 
+/* about---------------------------------- */
+.about {
+    background: rgb(201, 201, 201);
+    width: 1920px;
+    height: 920px;
+    position: relative;
+}
+.about li {
+    margin: 20px 0;
+}
+
+.about .me img {
+    margin-top: 160px;
+    border-radius: 10px;
+}
+
+.about .texts {
+    width: 800px;
+    line-height: 60px;
+    margin-top: 120px;
+    gap: 6rem;
+}
+.about .texts h3 {
+    font-size: 30px;
+}
+.about .texts p {
+    font-size: 18px;
+}
+.about .texts span {
+    font-weight: 700;
+    margin-right: 2rem;
+}
+
+
+.about .skills {
+    line-height: 50px;
+}
+.about .skills li {
+    position: relative;
+}
+.about .skills .percent {
+    font-weight: 500;
+    position: absolute;
+    right: 23%;
+}
+
+.about .basic {
+    line-height: 50px;
+    border-right: 1px solid black;
+    border-radius: 20px;
+}
+.about .basic p {
+    font-weight: 700;
+}
+.about .basic p:last-child {
+    width: 220px;
+    position: absolute;
+    top: 60%;
+    right: 14%;
+}
+
+.about .link {
+    position: absolute;
+    left: 30%;
+    bottom: 22%;
+    background: black;
+    color: white;
+    padding: .7rem;
+    border-radius: 10px;
+}
+
+/* clone coading---------------------------------- */
