@@ -11,20 +11,122 @@
     <header>
         <div class="intro">
             <div class="header_top">
-                <div class="icons"></div>
-                <div class="nav">
-                    <ul id="gnb">
-                        <li><a href="#">INTRO</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">CLONE COADING</a></li>
-                        <li><a href="#">WEB REDESIGN</a></li>
-                        <li><a href="#">WEB DESIGN</a></li>
-                        <li><a href="#">GRAPHIC DESIGN</a></li>
-                    </ul>
+                <div class="container d-flex j-between">
+                    <div class="icons d-flex g1">
+                        <p>icons</p>
+                        <p>icons</p>
+                    </div>
+                    <div class="nav">
+                        <ul id="gnb" class="d-flex g2">
+                            <li>
+                                <a href="#">INTRO</a>
+                            </li>
+                            <li>
+                                <a href="#">ABOUT</a></li>
+                            <li>
+                                <a href="#">CLONE COADING</a>
+                                <ul id="lnb">
+                                    <li><a href="#">롯데렌탈</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">WEB REDESIGN</a>
+                                <ul id="lnb">
+                                    <li><a href="#">삼송빵집</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">WEB DESIGN</a>
+                                <ul id="lnb">
+                                    <li><a href="#">바른푸드</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">GRAPHIC DESIGN</a>
+                                <ul id="lnb">
+                                    <li><a href="#">아이소메트릭</a></li>
+                                    <li><a href="#">팝업</a></li>
+                                    <li><a href="#">캐릭터</a></li>
+                                    <li><a href="#">팝아트</a></li>
+                                    <li><a href="#">영화잡지</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
+
+    <main>
+        <article>
+            <div class="about">
+                <div class="me"><img src="images/me.jpg" alt="증명사진"></div>
+
+                <div class="texts">
+                    <ul>
+                        <li>
+                            <h3>PROFILE</h3>
+                            <p>name 박진출</p>
+                            <p>birth 2001.08.23</p>
+                        </li>
+                        <li>
+                            <h3>EDUCATION</h3>
+                            <p>2023 스마트UXUI 디자인 과정 수료</p>
+                        </li>
+                        <li>
+                            <h3>CERTIFICATE</h3>
+                            <p>2023 GTQ 1급</p>
+                            <p>2020 운전면허 2종 자동</p>
+                            <p>2019 독일어 A2</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <h3>SKILLS</h3>
+                            <p>photoshop 80%</p>
+                            <p>illustrator 80%</p>
+                            <p>figma 80%</p>
+                            <p>html5.css3 80%</p>
+                            <p>js.jquery 40%</p>
+                            <p>git 80%</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="link"><a href="#">디자인 이력서</a></div>
+            </div>
+        </article>
+
+        <article>
+            <div class="clone_coding">
+                <div class="mac">
+                    <img src="images/mac.png" alt="화면">
+                </div>
+
+                <div class="ex">
+                    <h3>Lotte rental</h3>
+                    <p>롯데렌탈 사이트</p>
+                    <ul>
+                        <li>
+                            <p>TYPE web</p>
+                            <p>PAGE main+sub1</p>
+                            <p>TOOL figma.html.css.js</p>
+                            <p>참여도 100%(개인작업)</p>
+                        </li>
+                    </ul>
+
+                    <div class="links">
+                        <ul>
+                            <li><a href="#">Styleguide</a></li>
+                            <li><a href="#">Prototype</a></li>
+                            <li><a href="#">Website</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
     
 </body>
 </html>
