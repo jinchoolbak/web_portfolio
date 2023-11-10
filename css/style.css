@@ -41,6 +41,10 @@ a {
     max-width: 1400px;
     margin: 0 auto;
 }
+.small_container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
 
 /* header---------------------------------- */
 .intro {
@@ -147,3 +151,60 @@ a {
 }
 
 /* clone coading---------------------------------- */
+.clone_coading {
+    background: rgb(255, 143, 143);
+    width: 1920px;
+    height: 920px;
+    position: relative;
+}
+
+.clone_coading .mac {
+    margin-top: 220px;
+    width: 600px;
+    text-align: center;
+}
+
+.clone_coading .mac img {
+    width: 100%;
+}
+
+.clone_coading .ex {
+    margin-top: 300px;
+    width: 600px;
+    line-height: 35px;
+}
+.clone_coading .ex h3 {
+    font-size: 35px;
+}
+.clone_coading .ex p {
+    font-weight: 800;
+    font-size: 25px;
+}
+.clone_coading .ex hr {
+    width: 400px;
+    border: 1px solid black;
+    margin: 1rem 0;
+}
+.clone_coading .ex ul {
+    margin-top: 1rem;
+}
+.clone_coading .ex li p {
+    font-size: 18px;
+    font-weight: 500;
+    border: 0;
+}
+.clone_coading .ex li span {
+    font-weight: 700;
+    margin-right: 2rem;
+}
+
+.clone_coading .links {
+    position: absolute;
+    bottom: 33%;
+}
+.clone_coading .links li {
+    background: black;
+    color: white;
+    padding: .3rem .8rem;
+    border-radius: 10px;
+}
