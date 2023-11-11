@@ -50,7 +50,7 @@ a {
 .intro {
     background: url("../images/intro.png") no-repeat center / cover;
     width: 1920px;
-    height: 920px;
+    height: 940px;
 }
 
 .header_top {
@@ -83,7 +83,7 @@ a {
 .about {
     background: rgb(201, 201, 201);
     width: 1920px;
-    height: 920px;
+    height: 940px;
     position: relative;
 }
 .about li {
@@ -91,14 +91,14 @@ a {
 }
 
 .about .me img {
-    margin-top: 160px;
+    margin-top: 250px;
     border-radius: 10px;
 }
 
 .about .texts {
     width: 800px;
     line-height: 60px;
-    margin-top: 120px;
+    margin-top: 200px;
     gap: 6rem;
 }
 .about .texts h3 {
@@ -134,16 +134,16 @@ a {
     font-weight: 700;
 }
 .about .basic p:last-child {
-    width: 220px;
+    width: 210px;
     position: absolute;
-    top: 60%;
+    bottom: 21%;
     right: 14%;
 }
 
 .about .link {
     position: absolute;
-    left: 30%;
-    bottom: 22%;
+    left: 30.5%;
+    bottom: 14%;
     background: black;
     color: white;
     padding: .7rem;
@@ -152,9 +152,9 @@ a {
 
 /* clone coading---------------------------------- */
 .clone_coading {
-    background: rgb(255, 143, 143);
+    background: rgb(255, 139, 139);
     width: 1920px;
-    height: 920px;
+    height: 940px;
     position: relative;
 }
 
@@ -213,7 +213,7 @@ a {
 .web_redesign {
     background: rgb(255, 216, 143);
     width: 1920px;
-    height: 920px;
+    height: 940px;
     position: relative;
 }
 
@@ -262,6 +262,65 @@ a {
     bottom: 33%;
 }
 .web_redesign .links li {
+    background: black;
+    color: white;
+    padding: .3rem .8rem;
+    border-radius: 10px;
+}
+
+/* web_design---------------------------------- */
+.web_design {
+    background: rgb(161, 255, 159);
+    width: 1920px;
+    height: 940px;
+    position: relative;
+}
+
+.web_design .mac {
+    margin-top: 220px;
+    width: 600px;
+    text-align: center;
+}
+
+.web_design .mac img {
+    width: 100%;
+}
+
+.web_design .ex {
+    margin-top: 300px;
+    width: 600px;
+    line-height: 35px;
+}
+.web_design .ex h3 {
+    font-size: 35px;
+}
+.web_design .ex p {
+    font-weight: 800;
+    font-size: 25px;
+}
+.web_design .ex hr {
+    width: 400px;
+    border: 1px solid black;
+    margin: 1rem 0;
+}
+.web_design .ex ul {
+    margin-top: 1rem;
+}
+.web_design .ex li p {
+    font-size: 18px;
+    font-weight: 500;
+    border: 0;
+}
+.web_design .ex li span {
+    font-weight: 700;
+    margin-right: 2rem;
+}
+
+.web_design .links {
+    position: absolute;
+    bottom: 33%;
+}
+.web_design .links li {
     background: black;
     color: white;
     padding: .3rem .8rem;
