@@ -40,13 +40,6 @@ $(() => {
 		$(".about_popup").addClass("d-none");
 	}));
 
-	$(".clone_coading .links li:first-child").on("click", (() => {
-		$(".clone_popup").removeClass("d-none");
-	}));
-	$(".clone_popup button").on("click", (() => {
-		$(".clone_popup").addClass("d-none");
-	}));
-
 	$(".web_redesign .links li:first-child").on("click", (() => {
 		$(".redesign_popup").removeClass("d-none");
 	}));
@@ -54,10 +47,4 @@ $(() => {
 		$(".redesign_popup").addClass("d-none");
 	}));
 
-	$(".web_design .links li:first-child").on("click", (() => {
-		$(".design_popup").removeClass("d-none");
-	}));
-	$(".design_popup button").on("click", (() => {
-		$(".design_popup").addClass("d-none");
-	}));
 })
