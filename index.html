@@ -8,8 +8,27 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!--popup -->
+    <div class="about_popup d-none">
+        <img src="images/aboutdesign.jpg" alt="디자인이력서">
+        <button>X</button>
+    </div>
+    <div class="clone_popup d-none">
+        <img src="images/aboutdesign.jpg" alt="디자인이력서">
+        <button>X</button>
+    </div>
+    <div class="redesign_popup d-none">
+        <img src="images/aboutdesign.jpg" alt="디자인이력서">
+        <button>X</button>
+    </div>
+    <div class="design_popup d-none">
+        <img src="images/aboutdesign.jpg" alt="디자인이력서">
+        <button>X</button>
+    </div>
+    
+
     <header>
-        <div id="intro" class="intro">
+        <div id="intro" class="intro content">
             <div class="header_top">
                 <div class="container d-flex j-between">
                     <div class="icons d-flex g1">
@@ -59,53 +78,15 @@
     </header>
 
     <main>
-        <article id="about">
+        <article id="about" class="content">
             <div class="about">
                 <div class="container d-flex j-between">
-                    <div class="me"><img src="images/me.png" alt="증명사진"></div>
-                    <div class="texts d-flex">
-                        <ul>
-                            <li>
-                                <h3>PROFILE</h3>
-                                <p><span>name</span> 박진출</p>
-                                <p><span>birth</span> 2001.08.23</p>
-                            </li>
-                            <li>
-                                <h3>EDUCATION</h3>
-                                <p><span>2023</span> 스마트UXUI 디자인 과정 수료</p>
-                            </li>
-                            <li>
-                                <h3>CERTIFICATE</h3>
-                                <p><span>2023</span> GTQ 1급</p>
-                                <p><span>2020</span> 운전면허 2종 자동</p>
-                                <p><span>2019</span> 독일어 A2</p>
-                            </li>
-                        </ul>
-                        <ul>
-                            <li class="skills">
-                                <h3>SKILLS</h3>
-                                <p><span>photoshop</span> <span class="percent">80%</span></p>
-                                <p><span>illustrator</span> <span class="percent">80%</span></p>
-                                <p><span>figma</span> <span class="percent">80%</span></p>
-                                <p><span>html5.css3</span> <span class="percent">80%</span></p>
-                                <p><span>js.jquery</span> <span class="percent">40%</span></p>
-                                <p><span>git</span> <span class="percent">80%</span></p>
-                            </li>
-                            <li class="basic">
-                                <p>pug</p>
-                                <p>node.js</p>
-                                <p>react.js</p>
-                                <p>mysql</p>
-                                <p>기초적인 지식과 경험을 갖고 있습니다</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="link"><a href="#">디자인 이력서</a></div>
+                    <div class="link"><a href="javascript:void(0)">디자인 이력서</a></div>
                 </div>
             </div>
         </article>
 
-        <article id="clone">
+        <article id="clone" class="content">
             <div class="clone_coading">
                 <div class="container d-flex">
                     <div class="mac">
@@ -113,7 +94,7 @@
                     </div>
                     <div class="ex">
                         <h3>LOTTE RENTAL</h3>
-                        <p>롯데렌탈 사이트</p>
+                        <p>롯데렌터카 렌탈사이트</p>
                         <hr>
                         <ul>
                             <li>
@@ -135,7 +116,7 @@
                         </ul>
                         <div class="links">
                             <ul class="d-flex g1">
-                                <li><a href="#">Styleguide</a></li>
+                                <li><a href="javascript:void(0)">Styleguide</a></li>
                                 <li><a href="http://pjc.dothome.co.kr/lotte_rental" target="_blank">Website</a></li>
                                 <li><a href="https://github.com/jinchoolbak/lotte_clone.git" target="_blank">Github</a></li>
                             </ul>
@@ -145,7 +126,7 @@
             </div>
         </article>
 
-        <article id="redesign">
+        <article id="redesign" class="content">
             <div class="web_redesign">
                 <div class="container d-flex">
                     <div class="mac">
@@ -175,7 +156,7 @@
                         </ul>
                         <div class="links">
                             <ul class="d-flex g1">
-                                <li><a href="#">Styleguide</a></li>
+                                <li><a href="javascript:void(0)">Styleguide</a></li>
                                 <li><a href="https://www.figma.com/file/ag4eq2BVXZnajyJ2t9Ccx5/%EC%82%BC%EC%86%A1%EB%B9%B5%EC%A7%91-%EC%9B%B9-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%8B%9C%EC%95%88?type=design&t=ILwyPs5BxOHWJKNH-6" target="_blank">Prototype</a></li>
                                 <li><a href="http://pjc.dothome.co.kr/samsong_bakery" target="_blank">Website</a></li>
                                 <li><a href="https://github.com/jinchoolbak/samsong.git" target="_blank">Github</a></li>
@@ -186,7 +167,7 @@
             </div>
         </article>
 
-        <article id="design">
+        <article id="design" class="content">
             <div class="web_design">
                 <div class="container d-flex">
                     <div class="mac">
@@ -216,7 +197,7 @@
                         </ul>
                         <div class="links">
                             <ul class="d-flex g1">
-                                <li><a href="#">Styleguide</a></li>
+                                <li><a href="javascript:void(0)">Styleguide</a></li>
                                 <li><a href="https://www.figma.com/file/y8cNGRnvGgfYouqWgT6kIa/%EB%B0%94%EB%A5%B8%ED%91%B8%EB%93%9C-%EC%8B%9C%EC%95%88?type=design&t=ILwyPs5BxOHWJKNH-6" target="_blank">Prototype</a></li>
                                 <li><a href="http://pjc.dothome.co.kr/barun_foood" target="_blank">Website</a></li>
                                 <li><a href="https://github.com/jinchoolbak/barun_foood.git" target="_blank">Github</a></li>
@@ -226,7 +207,34 @@
                 </div>
             </div>
         </article>
+
+        <article class="content">
+            <div class="graphic_design">
+                <div class="container d-none">
+                    <div class="ex">
+                        <h3>MOVIE MAGAZINE</h3>
+                        <p>스파이더맨 영화잡지</p>
+                        <p>스파이더맨 영화가 인상깊었어서 잡지로 한번 만들어보고 싶었습니다</p>
+                        <ul>
+                            <li>
+                                <h4>기여도</h4>
+                                <p>100%(개인작업)</p>
+                            </li>
+                            <li>
+                                <h4>TOOL</h4>
+                                <p>figma.html.css.js</p>
+                            </li>
+                            <li>
+                                <h4>KEYWORD</h4>
+                                <p>스파이더맨</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </article>
     </main>
     
+    <script src="script/index.js"></script>
 </body>
 </html>

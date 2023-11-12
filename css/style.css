@@ -14,6 +14,25 @@ a {
     color: inherit;
 }
 
+html {
+    overflow: hidden;
+}
+ 
+html, body{
+    width: 100%; 
+    height: 100%;
+}
+ 
+body {
+    position: relative;
+}
+
+.content{
+	width: 100%; height: 100%;
+	position: relative;
+}
+
+
 /* style class */
 .d-none {
     display: none;
@@ -42,11 +61,131 @@ a {
     margin: 0 auto;
 }
 
+/* popup---------------------------------- */
+/* about-popup---------------------------------- */
+.about_popup {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.581);
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    left: 0;
+    text-align: center;
+    height: 100%;
+    z-index: 9999;
+}
+
+.about_popup img {
+    width: 25%;
+    margin-top: 150px;
+}
+
+.about_popup button {
+    position: absolute;
+    top: 9%;
+    right: 37.5%;
+    border: 0;
+    background: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+}
+/* clone-popup---------------------------------- */
+.clone_popup {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.581);
+    width: 100%;
+    height: 100%;
+    top: 200%;
+    left: 0;
+    text-align: center;
+    height: 100%;
+    z-index: 9999;
+}
+
+.clone_popup img {
+    width: 25%;
+    margin-top: 150px;
+}
+
+.clone_popup button {
+    position: absolute;
+    top: 9%;
+    right: 37.5%;
+    border: 0;
+    background: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+}
+
+/* redesign-popup---------------------------------- */
+.redesign_popup {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.581);
+    width: 100%;
+    height: 100%;
+    top: 300%;
+    left: 0;
+    text-align: center;
+    height: 100%;
+    z-index: 9999;
+}
+
+.redesign_popup img {
+    width: 25%;
+    margin-top: 150px;
+}
+
+.redesign_popup button {
+    position: absolute;
+    top: 9%;
+    right: 37.5%;
+    border: 0;
+    background: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+}
+
+/* design-popup---------------------------------- */
+.design_popup {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.581);
+    width: 100%;
+    height: 100%;
+    top: 400%;
+    left: 0;
+    text-align: center;
+    height: 100%;
+    z-index: 9999;
+}
+
+.design_popup img {
+    width: 25%;
+    margin-top: 150px;
+}
+
+.design_popup button {
+    position: absolute;
+    top: 9%;
+    right: 37.5%;
+    border: 0;
+    background: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+}
+
 /* header---------------------------------- */
 .intro {
     background: url("../images/intro.png") no-repeat center / cover;
     width: 1920px;
-    height: 940px;
+    height: 938px
 }
 
 .header_top {
@@ -78,73 +217,21 @@ a {
 /* about---------------------------------- */
 .about {
     background: url("../images/about-bg.png") no-repeat center / cover;
-    width: 1920px;
-    height: 940px;
-    position: relative;
-}
-
-.about img {
     width: 100%;
+    height: 938px;
 }
 
-.about li {
-    margin: 20px 0;
-}
-
-.about .me img {
-    margin-top: 250px;
-    border-radius: 10px;
-}
-
-.about .texts {
-    width: 800px;
-    line-height: 60px;
-    margin-top: 200px;
-    gap: 6rem;
-}
-.about .texts h3 {
-    font-size: 30px;
-}
-.about .texts p {
-    font-size: 18px;
-}
-.about .texts span {
-    font-weight: 700;
-    margin-right: 2rem;
-}
-
-
-.about .skills {
-    line-height: 50px;
-}
-.about .skills li {
+.about .container {
+    background: url("../images/about01.png") no-repeat center / cover;
+    background-position: -180px 0;
+    height: 100%;
     position: relative;
-}
-.about .skills .percent {
-    font-weight: 500;
-    position: absolute;
-    right: 23%;
-}
-
-.about .basic {
-    line-height: 50px;
-    border-right: 1px solid black;
-    border-radius: 20px;
-}
-.about .basic p {
-    font-weight: 700;
-}
-.about .basic p:last-child {
-    width: 210px;
-    position: absolute;
-    bottom: 21%;
-    right: 14%;
 }
 
 .about .link {
     position: absolute;
-    left: 30.5%;
-    bottom: 14%;
+    left: 0%;
+    bottom: 10%;
     background: black;
     color: white;
     padding: .7rem;
@@ -154,8 +241,8 @@ a {
 /* clone coading---------------------------------- */
 .clone_coading {
     background: rgb(255, 139, 139);
-    width: 1920px;
-    height: 940px;
+    width: 100%;
+    height: 938px;
     position: relative;
 }
 
@@ -222,8 +309,8 @@ a {
 /* web_redesign---------------------------------- */
 .web_redesign {
     background: rgb(255, 216, 143);
-    width: 1920px;
-    height: 940px;
+    width: 100%;
+    height: 938px;
     position: relative;
 }
 
@@ -291,8 +378,8 @@ a {
 /* web_design---------------------------------- */
 .web_design {
     background: rgb(161, 255, 159);
-    width: 1920px;
-    height: 940px;
+    width: 100%;
+    height: 938px;
     position: relative;
 }
 
