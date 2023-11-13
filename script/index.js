@@ -40,7 +40,7 @@ $(() => {
 		$(".about_popup").addClass("d-none");
 	}));
 
-	$(".web_redesign .links li:first-child").on("click", (() => {
+	$(".web_redesign .links li:last-child").on("click", (() => {
 		$(".redesign_popup").removeClass("d-none");
 	}));
 	$(".redesign_popup button").on("click", (() => {
