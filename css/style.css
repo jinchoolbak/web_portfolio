@@ -142,6 +142,10 @@ body {
     font-size: 1.2rem;
     font-weight: 600;
 }
+.nav #gnb > li > a:hover {
+    border-bottom: 2px solid black;
+    padding: .5rem 0;
+}
 
 .nav #lnb {
     display: none;
@@ -149,15 +153,18 @@ body {
     text-align: center;
     background: black;
     color: white;
+    font-size: 1rem;
+    font-weight: 500;
 }
-
 .nav #gnb li:hover #lnb {
     display: block;
 }
-
 #lnb li:hover {
     background: white;
     color: black;
+}
+#lnb li a:hover {
+    border: 0;
 }
 
 /* about---------------------------------- */
@@ -180,8 +187,13 @@ body {
     bottom: 10%;
     background: black;
     color: white;
-    padding: .7rem;
+    padding: .7rem 4rem;
     border-radius: 10px;
+}
+
+.about .link:hover {
+    background: white;
+    color: black;
 }
 
 /* clone coading---------------------------------- */
@@ -234,14 +246,18 @@ body {
     margin-right: 2rem;
 }
 
+.clone_coading .colors img {
+    vertical-align: text-bottom;
+}
+
 .clone_coading .links {
     position: absolute;
-    bottom: 30%;
+    bottom: 28%;
 }
 .clone_coading .links li {
     background: black;
     color: white;
-    padding: .3rem .8rem;
+    padding: .3rem 4.3rem;
     border-radius: 10px;
 }
 .clone_coading .links li:hover {
@@ -299,14 +315,19 @@ body {
     margin-right: 2rem;
 }
 
+.web_redesign .colors img {
+    vertical-align: text-bottom;
+}
+
+
 .web_redesign .links {
     position: absolute;
-    bottom: 33%;
+    bottom: 28%;
 }
 .web_redesign .links li {
     background: black;
     color: white;
-    padding: .3rem .8rem;
+    padding: .3rem 1.1rem;
     border-radius: 10px;
 }
 .web_redesign .links li:hover {
@@ -372,14 +393,18 @@ body {
     margin-right: 2rem;
 }
 
+.web_design .colors img {
+    vertical-align: text-bottom;
+}
+
 .web_design .links {
     position: absolute;
-    bottom: 33%;
+    bottom: 28%;
 }
 .web_design .links li {
     background: black;
     color: white;
-    padding: .3rem .8rem;
+    padding: .3rem 2rem;
     border-radius: 10px;
 }
 .web_design .links li:hover {
