@@ -417,69 +417,132 @@ body {
     color: black;
 }
 
-/* web_design---------------------------------- */
-.graphic_design {
+/* movie magazine---------------------------------- */
+.movie {
     background: url("../images/moviebg.png") no-repeat center /cover;
     width: 100%;
     height: 938px;
     position: relative;
 }
 
-.graphic_design .ps_spider img {
+.movie .ps_spider img {
     position: absolute;
     width: 50%;
     top: 20%;
     right: 13.8%;
 }
-.graphic_design .ai_spider1 img {
+.movie .ai_spider1 img {
     position: absolute;
     width: 11%;
     bottom: 12%;
     left: 14%;
 }
-.graphic_design .ai_spider2 img {
+.movie .ai_spider2 img {
     position: absolute;
     width: 11%;
     bottom: 12%;
     left: 24.9%;
 }
 
-.graphic_design .ex {
+.movie .ex {
     margin-top: 190px;
     margin-left: 10px;
     width: 700px;
     line-height: 35px;
 }
 
-.graphic_design .ex h3 {
+.movie .ex h3 {
     font-size: 35px;
 }
-.graphic_design .ex p {
+.movie .ex p {
     font-weight: 600;
     font-size: 20px;
 }
 
-.graphic_design .ex hr {
+.movie .ex hr {
     width: 420px;
     border: 1px solid black;
     margin: 1rem 0;
 }
 
-.graphic_design .ex ul {
+.movie .ex ul {
     margin-top: 1.5rem;
 }
 
-.graphic_design .ex li {
+.movie .ex li {
     display: flex;
     line-height: 50px;
 }
-.graphic_design .ex li h4 {
+.movie .ex li h4 {
     width: 150px;
     font-weight: 700;
     margin-right: 2rem;
     font-size: 20px;
 }
-.graphic_design .ex li p {
+.movie .ex li p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* pop art---------------------------------- */
+.popart {
+    background: url("../images/moviebg.png") no-repeat center /cover;
+    width: 100%;
+    height: 938px;
+    position: relative;
+}
+
+.popart .art1 img {
+    position: absolute;
+    width: 25%;
+    bottom: 20%;
+    left: 36%;
+}
+.popart .art2 img {
+    position: absolute;
+    width: 25%;
+    bottom: 20%;
+    right: 14%;
+    border: 1px solid black;
+    width: 475px;
+}
+
+.popart .ex {
+    margin-top: 280px;
+    margin-left: 10px;
+    width: 700px;
+    line-height: 35px;
+}
+
+.popart .ex h3 {
+    font-size: 35px;
+}
+.popart .ex p {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.popart .ex hr {
+    width: 350px;
+    border: 1px solid black;
+    margin: 1rem 0;
+}
+
+.popart .ex ul {
+    margin-top: 1.5rem;
+}
+
+.popart .ex li {
+    display: flex;
+    line-height: 50px;
+}
+.popart .ex li h4 {
+    width: 130px;
+    font-weight: 700;
+    margin-right: 2rem;
+    font-size: 20px;
+}
+.popart .ex li p {
     font-size: 18px;
     font-weight: 500;
 }
