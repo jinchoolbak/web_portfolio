@@ -460,7 +460,7 @@ body {
 }
 
 .movie .ex hr {
-    width: 420px;
+    width: 417px;
     border: 1px solid black;
     margin: 1rem 0;
 }
@@ -543,6 +543,61 @@ body {
     font-size: 20px;
 }
 .popart .ex li p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* popup_design---------------------------------- */
+.popoup_design {
+    background: url("../images/graphicbg.png") no-repeat center /cover;
+    width: 100%;
+    height: 938px;
+    position: relative;
+}
+
+.popoup_design .p1 img {
+    position: absolute;
+    width: 25%;
+    bottom: 15%;
+    right: 30%;
+}
+
+.popoup_design .ex {
+    margin-top: 280px;
+    margin-left: 10px;
+    width: 700px;
+    line-height: 35px;
+}
+
+.popoup_design .ex h3 {
+    font-size: 35px;
+}
+.popoup_design .ex p {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.popoup_design .ex hr {
+    width: 350px;
+    border: 1px solid black;
+    margin: 1rem 0;
+}
+
+.popoup_design .ex ul {
+    margin-top: 1.5rem;
+}
+
+.popoup_design .ex li {
+    display: flex;
+    line-height: 50px;
+}
+.popoup_design .ex li h4 {
+    width: 130px;
+    font-weight: 700;
+    margin-right: 2rem;
+    font-size: 20px;
+}
+.popoup_design .ex li p {
     font-size: 18px;
     font-weight: 500;
 }
