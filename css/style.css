@@ -614,22 +614,24 @@ body {
     background: url("../images/endbg.jpg") no-repeat center / cover;
     width: 100%;
     height: 938px;
-}
-
-.copy {
-    background: black;
-    color: white;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
+    display: inline-block;
     position: relative;
-    font-size: .8rem;
 }
 
-.copy a {
-    color: black;
+.end p:first-child {
     font-size: 2rem;
     position: absolute;
     right: 14%;
-    bottom: 100%;
+    bottom: 8%;
+}
+
+.end p:last-child {
+    width: 100%;
+    text-align: center;
+    font-size: .8rem;
+    border-top: 1px solid black;
+    padding-top: .5rem;
+    position: absolute;
+    bottom: 2%;
+    z-index: 999;
 }
